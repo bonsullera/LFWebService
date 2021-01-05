@@ -69,9 +69,7 @@ namespace LFWebService.Controllers
                 else
                 {
                     return NotFound();
-                }
-               
-                context.SaveChanges();
+                }               
             }
 
             return Ok();
